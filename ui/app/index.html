@@ -1,0 +1,33 @@
+<!doctype html>
+
+<html>
+    <head>
+        
+        <base href="/">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Web Socket</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" integrity="sha256-BJ/G+e+y7bQdrYkS2RBTyNfBHpA9IuGaPmf9htub5MQ=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="app.css" />
+
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.22/angular-ui-router.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.8/angular-cookies.min.js"></script>
+        <script src="app.module.js"></script>
+        <script src="utils/constants.js"></script>
+        <script src="utils/download.js"></script>
+        <script src="utils/fileUpload.directive.js"></script>
+
+
+    </head>
+
+    <body ng-app="cloudStorageApp" class="container">
+        <center>
+            <h1 style="margin-bottom: 30px;">Welcome to Cloud Storage App</h1>
+        </center>
+        <ui-view></ui-view>
+    </body>
+</html>
